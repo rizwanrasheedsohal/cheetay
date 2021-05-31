@@ -1,4 +1,4 @@
-def activitySelection(s,f,n):
+def maxMeetings(s,f,n):
     fList, sList = zip(*sorted(zip(f, s)))
     smallest=fList[0]
     conflict=0
